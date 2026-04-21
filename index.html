@@ -193,6 +193,11 @@
             box-shadow: 0 10px 25px rgba(255, 215, 0, 0.4);
         }
 
+        .saweria-btn:hover {
+            border-color: #ff6b35;
+            box-shadow: 0 10px 25px rgba(255, 107, 53, 0.3);
+        }
+
         .footer {
             text-align: center;
             margin-top: 30px;
@@ -252,19 +257,78 @@
             to { opacity: 1; }
         }
 
-        /* Responsive */
+        /* Responsive - Mobile */
         @media (max-width: 480px) {
+            body {
+                padding: 15px;
+                align-items: flex-start;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+
             .profile-card {
-                padding: 30px 20px;
+                padding: 28px 18px;
+                border-radius: 24px;
+            }
+
+            .logo {
+                width: 120px;
+                height: 120px;
             }
 
             .profile-name {
-                font-size: 24px;
+                font-size: 20px;
+                letter-spacing: 1px;
+            }
+
+            .profile-bio {
+                font-size: 13px;
+            }
+
+            .links-container {
+                gap: 12px;
             }
 
             .link-btn {
-                padding: 15px 20px;
+                padding: 15px 18px;
                 font-size: 14px;
+                border-radius: 12px;
+            }
+
+            .link-btn i {
+                font-size: 18px;
+                margin-right: 10px;
+            }
+        }
+
+        /* Responsive - Tablet */
+        @media (min-width: 481px) and (max-width: 768px) {
+            .container {
+                max-width: 420px;
+            }
+
+            .profile-card {
+                padding: 35px 25px;
+            }
+        }
+
+        /* Responsive - Desktop */
+        @media (min-width: 769px) {
+            .container {
+                max-width: 480px;
+            }
+
+            .profile-card {
+                padding: 45px 35px;
+            }
+
+            .logo {
+                width: 160px;
+                height: 160px;
+            }
+
+            .profile-name {
+                font-size: 30px;
             }
         }
     </style>
@@ -289,45 +353,40 @@
 
             <!-- Social Links -->
             <div class="links-container">
-                <a href="https://discord.gg/your-server" class="link-btn discord-btn" target="_blank" rel="noopener noreferrer">
+                <a href="https://discord.gg/QV257zScHe" class="link-btn discord-btn" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-discord"></i>
-                    <span>Discord Server</span>
+                    <span>Discord</span>
                 </a>
 
-                <a href="https://tiktok.com/@kawarastudio" class="link-btn tiktok-btn" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.tiktok.com/@kawarastudio" class="link-btn tiktok-btn" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-tiktok"></i>
-                    <span>Order Fish4t</span>
+                    <span>TikTok</span>
                 </a>
 
-                <a href="https://instagram.com/kawarastudio" class="link-btn instagram-btn" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/kawarastudio.id/" class="link-btn instagram-btn" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-instagram"></i>
                     <span>Instagram</span>
                 </a>
 
-                <a href="https://youtube.com/@kawarastudio" class="link-btn youtube-btn" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.youtube.com/@kawarastudio" class="link-btn youtube-btn" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-youtube"></i>
                     <span>YouTube</span>
                 </a>
 
-                <a href="https://chat.whatsapp.com/your-group-invite" class="link-btn whatsapp-btn" target="_blank" rel="noopener noreferrer">
+                <a href="https://chat.whatsapp.com/FyZPVAJI0iN6Fd8MIJbn9q?mode=gi_t" class="link-btn whatsapp-btn" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-whatsapp"></i>
-                    <span>Support Donate</span>
+                    <span>WhatsApp</span>
                 </a>
 
-                <a href="https://kawarastudio.id" class="link-btn website-btn" target="_blank" rel="noopener noreferrer">
-                    <i class="fas fa-globe"></i>
-                    <span>Join kawarastore on Linktree</span>
+                <a href="https://saweria.co/KawaraStudio" class="link-btn saweria-btn" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <span>Saweria</span>
                 </a>
             </div>
 
             <!-- Footer -->
             <div class="footer">
-                <div class="footer-links">
-                    <a href="#" class="footer-link">Report</a>
-                    <span style="color: #666;">•</span>
-                    <a href="#" class="footer-link">Privacy</a>
-                </div>
-                <p class="copyright">© 2024 Kawara Studio. All rights reserved.</p>
+                <p class="copyright">© 2025 Kawara Studio. All rights reserved.</p>
             </div>
         </div>
     </div>
